@@ -15,6 +15,7 @@
   "requires_arc": true,
   "platforms": {
     "ios": "5.0",
+    "tvos": "9.0",
     "osx": "10.7"
   },
   "ios": {
@@ -23,6 +24,12 @@
       "Security"
     ]
   },
+  "tvos": {
+    "frameworks": [
+      "CFNetwork",
+      "Security"
+     ]
+   },
   "osx": {
     "frameworks": [
       "CoreServices",
